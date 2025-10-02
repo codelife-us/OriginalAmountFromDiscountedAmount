@@ -21,5 +21,4 @@ else:
     original_amount = discounted_amount * (1 / (1 - percentage / 100))
     print(f"The original amount would have been ${original_amount:,.2f}.")
     savings_amount = original_amount - discounted_amount
-
     print(f"The savings amount is ${savings_amount:,.2f}.")
